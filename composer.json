@@ -1,0 +1,13 @@
+{
+    "name": "vendor/shopp-in-map",
+    "description": null,
+    "authors": [
+        {
+            "name": "Jean",
+            "email": "jean.coppieters@hotmail.com"
+        }
+    ],
+    "require": {
+
+    }
+}

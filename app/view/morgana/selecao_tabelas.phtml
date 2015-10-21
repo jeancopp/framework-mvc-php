@@ -1,0 +1,18 @@
+
+<div>
+    <p>Selecione as tabelas que deseja gerar os models:</p>
+    <form method="post" action="/morgana/gerar_models">
+        <p>
+        <?php
+        $tabelas = ModelTable::getListTabelas();
+        foreach ($tabelas as $tabela){
+        ?>
+            <input type="checkbox" name="tabela[]" value=<?php echo "\"{$tabela}\"";?>>
+                <?php echo ucfirst($tabela);?>
+            </input>
+            <br/>
+        <?php } ?>
+        </p>        
+        <input type="submit" value="Gerar" id="gerar_models">
+    </form>
+</div>
