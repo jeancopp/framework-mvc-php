@@ -32,7 +32,7 @@
          * 
          * Se "$campo_codigo is [null, 0]", então o elemento não está no banco, logo é uma adição.
          * 
-         * É garantido, no momento da criação do objeto, que o campo referente ao campo código seja valorado em 0
+         * É garantido, no memento da criação do objeto, que o campo referente ao campo código seja valorado em 0
          */
             $dados = array();
             foreach ($this->_campos as $campo_tabela => $atributo){
